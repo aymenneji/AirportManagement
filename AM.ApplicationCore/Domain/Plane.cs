@@ -12,7 +12,7 @@ namespace AM.ApplicationCore.Domain
         public int Capacity { get; set; }
         public DateTime ManuFactureDate { get; set; }
         [Range(1,int.MaxValue)]
-        public int Planeid { get; set; }
+        public int PlaneId { get; set; }
         public PlaneType PlaneType { get; set; }
         public IList<Flight> Flights { get; set; }
     }

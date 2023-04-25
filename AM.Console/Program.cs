@@ -23,9 +23,14 @@ Flight f5 = new Flight
 };
 
 Passenger p1 = new Passenger
+
+
 {
-    LastName = "neji",
-    FirstName = "aymen",
+    FullName = new FullName {
+        LastName = "neji",
+        FirstName = "aymen",
+    },
+    
     EmailAdress = "email"
 };
 
